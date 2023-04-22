@@ -29,7 +29,7 @@ f.close()
 
 install_requires = [
     "python-dateutil",
-    "elasticsearch>=7.0.0,<8.0.0",
+    "elasticsearch>=7.0.0,<9.0.0",
 ]
 
 develop_requires = [
@@ -46,14 +46,14 @@ setup(
     name="elasticsearch-dsl",
     description="Python client for Elasticsearch",
     license="Apache-2.0",
-    url="https://github.com/elasticsearch/elasticsearch-dsl-py",
+    url="https://github.com/cultivatepeople-kamsa/elasticsearch-dsl-py-8.git",
     long_description=long_description,
     long_description_content_type="text/x-rst",
     version=__versionstr__,
     author="Honza Král",
     author_email="honza.kral@gmail.com",
-    maintainer="Seth Michael Larson",
-    maintainer_email="seth.larson@elastic.co",
+    maintainer="Matt Harbers",
+    maintainer_email="matt@kamsa.co",
     packages=find_packages(where=".", exclude=("tests*",)),
     python_requires=">=3.6",
     classifiers=[
